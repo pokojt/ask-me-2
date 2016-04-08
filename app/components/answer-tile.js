@@ -13,7 +13,7 @@ export default Ember.Component.extend({
       newLike.save().then(function() {
         return answer.save();
       });
-      this.transitionTo('question', question_id);
+      this.transitionTo('question');
     }
   }
 });
