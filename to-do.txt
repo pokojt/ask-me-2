@@ -1,10 +1,5 @@
 TO DO
 
-- sort questions by most recent
-
-most important:
-
-- add likes to model and sort as computed property
 
  >> ASK MIKE
  - created like model with property belongs to answer

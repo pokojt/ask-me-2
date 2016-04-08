@@ -1,9 +1,9 @@
-# Ask Me - Javascript Week 3 Code Review
+# Ask Me - Javascript Week 4 Code Review
 ## By: Taylor Pokoj
 
 ##Description
 
-For this project, we were instructed to use Ember JS to create a question and answer message board where a user submits a question and other users can respond with answers. The app should meet the following objectives: 
+For this project, we were instructed to use Ember JS to create a question and answer message board where a user submits a question and other users can respond with answers. The app should meet the following objectives:
 
 - Questions should have the content of the question itself, an author and additional notes.
 - Answers should have the content of the answer and the author.
