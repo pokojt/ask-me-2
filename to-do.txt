@@ -9,8 +9,7 @@ most important:
 HELPER
 
 - helper to add an icon to popular questions, based on votes? question-popularity
-- create a helper to format the time?
-- OR a helper to change display of questions with no answers. Maybe one answer could change the color, three, 5, etc?
+- create a helper to change display of questions with no answers. 
 
 COMPUTED PROPERTY
 - a computed property to add a comment count on the index page for each question
