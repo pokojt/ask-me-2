@@ -1,7 +1,8 @@
 <div class="questionDetailItem">
-  <h4 class="detailAuthor">{{question.author}} asked:</h4>
+  <h4 class="detailAuthor">{{question.author}} asked on {{question.date}}:</h4>
   <h2>{{question.content}}</h2>
   <p>{{question.notes}}</p>
+  <button {{action 'addToFavorites'}}><i class="fa fa-heart"></i></button>
 </div>
 
 <button class="deleteQuestionButton" {{action 'deleteQuestion' question}}>Delete Question</button>
