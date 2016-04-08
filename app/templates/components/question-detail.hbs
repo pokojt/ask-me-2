@@ -1,0 +1,7 @@
+<div class="questionDetailItem">
+  <h4 class="detailAuthor">{{question.author}} asked:</h4>
+  <h2>{{question.content}}</h2>
+  <p>{{question.notes}}</p>
+</div>
+
+<button class="deleteQuestionButton" {{action 'deleteQuestion' question}}>Delete Question</button>

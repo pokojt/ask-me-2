@@ -1,0 +1,191 @@
+body {
+  background: linear-gradient(to right, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url("/img/thesmiths.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: oldlace;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.pageWrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 70px;
+  text-transform: uppercase;
+
+  font-weight: lighter;
+  letter-spacing: 5px;
+  color: mistyrose;
+  transition: all 500ms ease-in-out;
+}
+
+h1:hover {
+  color: white;
+  letter-spacing: 9px;
+  transition: all 500ms ease-in-out;
+}
+
+.lead {
+  font-weight: lighter;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  transition: all 300ms linear;
+}
+
+a:hover {
+  letter-spacing: 1px;
+  color: mistyrose;
+  transition: all 300ms linear;
+}
+
+.questionList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.questionList > .ember-view {
+  width: 68%;
+  border: 1px solid mistyrose;
+  background: rgba(0, 0, 0, 0.5);
+  margin: 2%;
+  text-align: center;
+  padding: 1%;
+  height: 100px;
+}
+.questionItem {
+  /*border: 1px solid mistyrose;*/
+  padding-top: 20px;
+}
+
+button {
+  border: 1px solid white;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  opacity: .9;
+  font-size: 10px;
+  padding: 10px 20px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  margin: 1%;
+  transition: all 500ms ease-in-out;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.7);
+  color: black;
+  transition: all 500ms ease-in-out;
+  cursor: pointer;
+  letter-spacing: 2.5px;
+}
+
+
+.footer {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 2px;
+  opacity: .8;
+  margin: 3%;
+}
+
+.author {
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 2px;
+  opacity: .8;
+}
+
+hr {
+  width: 60%;
+  opacity: .8;
+}
+
+.listHeader{
+  letter-spacing: 2px;
+  font-weight: lighter;
+  margin-bottom: 0;
+  font-size: 25px;
+  text-align: center;
+  color: mistyrose;
+  font-family: 'Seaweed Script', cursive;
+}
+
+.addQuestion {
+  text-align: center;
+  margin-top: 2%;
+}
+
+/* ------------------------------- Question Detail page Styles ---------*/
+
+
+.questionDetailItem {
+  border: 1px solid mistyrose;
+  padding: 2%;
+  margin-top: 8%;
+  background: rgba(0,0,0, .6);
+}
+
+.detailAuthor {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 11px;
+}
+
+input, textarea {
+  background: rgba(255,255,255, .8);
+  border: none;
+  height: 20px;
+  margin: 2px;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+label {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 11px;
+  color: mistyrose;
+}
+
+
+.answerAuthor {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 11px;
+  color: mistyrose;
+}
+
+.answerItem {
+  background: rgba(0,0,0, .6);
+  padding: 2%;
+  margin: 1%;
+  border: 1px solid rgba(255,255,255, .4);
+}
