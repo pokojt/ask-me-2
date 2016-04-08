@@ -18,7 +18,7 @@ export default Ember.Component.extend({
         date: momentDate,
       };
       this.toggleProperty('questionFormShowing');
-      this.set('name', "");
+      this.set('content', "");
       this.set('author',"");
       this.set('notes',"");
       this.sendAction('saveQuestion', formInputs);

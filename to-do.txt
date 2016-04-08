@@ -1,22 +1,13 @@
 TO DO
 
+- sort questions by most recent
 
 most important:
 
-- add votes to model and sort as computed property
+- add likes to model and sort as computed property
 
+ >> ASK MIKE
+ - created like model with property belongs to answer
+ - added likes property on answer model, has many
 
-HELPER
-
-- helper to add an icon to popular questions, based on votes? question-popularity
-- create a helper to change display of questions with no answers. 
-
-COMPUTED PROPERTY
-- a computed property to add a comment count on the index page for each question
-
-
-
-- moment-from now not working????
-
-DONE:
-service - DONE
+ need to add likes to new-answer get function??
