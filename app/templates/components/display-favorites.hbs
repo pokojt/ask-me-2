@@ -1,3 +1,4 @@
 {{#each myFavorites.favorites as |favorite|}}
-  {{favorite.content}} - {{favorite.date}}
+  {{#link-to 'question'  question.id}}{{favorite.content}} - {{favorite.date}}{{/link-to}}
+  <button {{action 'removeFromFavorites' favorite}}>Remove</button>
 {{/each}}
