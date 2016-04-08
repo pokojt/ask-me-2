@@ -6,7 +6,7 @@ export default Ember.Component.extend({
   },
   actions: {
     saveNewLike(likeAnswer) {
-      alert("HEY");
+      // alert("HEY");
       var newLike = this.store.createRecord('like', likeAnswer);
       var answer = likeAnswer.answer;
       answer.get('likes').addObject(newLike);

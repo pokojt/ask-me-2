@@ -15,8 +15,8 @@ export default Ember.Component.extend({
       this.sendAction('saveNewLike', likeAnswer);
     },
     unlikeThisAnswer() {
-      this.sendAction('removeLike');
       this.set('newLike', false);
+      this.sendAction('removeLike');
     }
   }
 });

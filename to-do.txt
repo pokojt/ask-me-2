@@ -7,7 +7,6 @@ most important:
 
 
 HELPER
-- if an item is favorited, add a heart to it on the index page
 
 - helper to add an icon to popular questions, based on votes? question-popularity
 - create a helper to format the time?

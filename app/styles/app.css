@@ -17,6 +17,36 @@ body::-webkit-scrollbar {
   margin: 0 auto;
 }
 
+.myFavoritesLink {
+  align-self: flex-end;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 500ms ease-in-out;
+  font-size: 17px;
+}
+
+i {
+  color: mistyrose;
+  font-size: 32px;
+  margin: 2px;
+}
+
+.favoriteCount {
+  position: relative;
+  left: 43%;
+  margin-top: -35px;
+  color: black;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+
+.myFavoritesLink p:hover {
+  letter-spacing: 2px;
+  transition: all 500ms ease-in-out;
+}
+
+
 .header {
   text-align: center;
   display: flex;
