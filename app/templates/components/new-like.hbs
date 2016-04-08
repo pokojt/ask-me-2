@@ -1,0 +1,5 @@
+{{#if newLike}}
+  <button {{action 'unlikeThisAnswer'}}>Unlike</button>
+{{else}}
+  <button {{action 'likeThisAnswer' model}}>Like this Answer</button>
+{{/if}}

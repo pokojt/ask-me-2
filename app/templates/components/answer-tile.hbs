@@ -1,5 +1,12 @@
 <div class="answerItem">
   <h4 class="answerAuthor">{{answer.author}} answered {{answer.date}}:</h4>
   <p>{{answer.content}}</p>
-  <button {{action 'likeThisAnswer' answer}}>Like this Answer</button>
+
+
+  {{new-like saveNewLike='saveNewLike' removeLike='removeLike' answer=model}}
 </div>
+
+
+<!-- {{#each model.likes as |like|}}
+  {{like-tile like=like}}
+{{/each}} -->

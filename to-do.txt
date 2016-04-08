@@ -6,11 +6,9 @@ most important:
 - add votes to model and sort as computed property
 
 
-then:
-SERVICE
-- service my-favorites to favorite questions (heart icon?). This will go to a link in the nav, like shopping-cart service. favorite counter positioned over icon?
-
 HELPER
+- if an item is favorited, add a heart to it on the index page
+
 - helper to add an icon to popular questions, based on votes? question-popularity
 - create a helper to format the time?
 - OR a helper to change display of questions with no answers. Maybe one answer could change the color, three, 5, etc?
@@ -21,3 +19,6 @@ COMPUTED PROPERTY
 
 
 - moment-from now not working????
+
+DONE:
+service - DONE
