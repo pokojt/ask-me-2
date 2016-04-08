@@ -16,4 +16,4 @@ HELPER
 - OR a helper to change display of questions with no answers. Maybe one answer could change the color, three, 5, etc?
 
 COMPUTED PROPERTY
--sort answers by vote count
+-sort answers by vote count or to sort questions by most recent.
